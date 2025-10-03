@@ -1,0 +1,10 @@
+---
+layout: project
+title: Actuator Design
+description: Actuator Mechanism
+technologies: []
+image: /assets/images/HW-machine.jpg
+---
+
+
+**Objective:** Design a mechanism with three supports and a linear actuator that can supports the largest amount of weight.

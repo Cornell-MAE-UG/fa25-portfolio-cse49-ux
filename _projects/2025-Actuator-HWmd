@@ -3,8 +3,33 @@ layout: project
 title: Actuator Design
 description: Actuator Mechanism
 technologies: []
-image: /assets/images/HW-machine.jpg
+image: /assets/images/Linear Actuator System.png
 ---
 
 
-**Objective:** Design a mechanism with three supports and a linear actuator that can supports the largest amount of weight.
+**Problem:** Design a mechanism with three supports and a linear actuator that can supports the largest amount of weight.
+
+**Constraints:** The system must exist in a 2D space of 150cm long and 50cm tall and there must be 3 pinned supports of which 2 need to be mounted to the ground. The linear actuatort that is mounted to the beam must be chosen from a finite selection.
+
+**Static Analysis:** In order to design the strongest mechanism, you need to consider the moment balance of the weight and the force from the linear actuator. 
+1/2(294,000N)-150(W)=0
+and then divided the resulting weight by 9.8m/s^2 to get a result of 80.41 kg as the max mass.
+
+**Non-Rigid Beam:**
+Assumptions: Cantilever beam, fixed at x=0 and free at x=L, bar is made of steel with E=200x10^9. The cross section is an I-beam for strength.
+
+
+Equation for deflection at a free end due to a point load not at fixed end: δP,tip​=6EIPa2(3L−a)​
+Deflection at free end due to point load at tip: δPtip​​=3EIPL3​.
+Deflection at free end due to uniform load: δw,tip​=8EIwL4​.
+Total deflection: δtip=−(P1a^2(3L-a)/6EI) + P2L^3/3EI + wL^4/8EI
+
+Rearranged to get I as a function of deflection limit, the equation can be simplified to Imin = N/Eδallowed.
+Assuming that δallowed = 0.0316m, or 2%, the equation calculated to
+Imin = (1.20691 x 10^5)/(210x10^9)(0.0316) = 1.82x10^-5 m^4
+
+Solving the equation to find the height and base of the flange, the closest beam in the textbook is W310x143.
+
+![W310x143 Beam Specifications]({{ "assets/images/W310x143.jpeg" | relative_url }}){: class="project-image"}
+
+

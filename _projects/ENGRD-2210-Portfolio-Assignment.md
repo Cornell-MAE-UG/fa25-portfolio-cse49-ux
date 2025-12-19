@@ -2,7 +2,6 @@
 layout: project
 title: "ENGRD 2210 - Portfolio Assignment"
 description: "Portfolio deliverables and reflections for ENGRD 2210."
-technologies: []
 image: /assets/images/kohler-engine.jpg
 ---
 

@@ -11,4 +11,4 @@ title: <Camille Eckert>
  
 My name is Camille. I am a sophomore mechanical engineer at Cornell University.
 
-Take a look at <a href="{{ "/projects/" | relative_url }}">my projects</a> and <a href="{{ "/cv/" | relative_url }}">CV</a>.
+Take a look at <a href="{{ "/projects/" | relative_url }}">my projects</a>, my <a href="{{ "/cv/" | relative_url }}">CV</a>, or jump directly to my <a href="{{ "/projects/2025-Actuator-HWmd/" | relative_url }}">Actuator Design</a> project.

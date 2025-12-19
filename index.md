@@ -1,6 +1,6 @@
 ---
 layout: default
-title: <Camille Eckert>
+title: Camille Eckert
 ---
 
 ## About Me

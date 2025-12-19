@@ -10,7 +10,8 @@ For this assignment, we will be analyzing and comparing the thermal efficiency o
 
 Throughout this analysis, most data will be sourced from the manufacturer specification sheet for the CH440 engine and the SAE International Competition Rulebook for the Baja SAE competition.
 
-The efficiency of this ideal system is given by the equation  = 1-(1r)k-1 where r is the compression ratio (given by the manufacturer as r = 8.3) and k is the specific heat ratio, typically k = 1.4 when modeling air as an ideal gas.
+The efficiency of this ideal system is given by the equation 
+= 1-(1r)k-1 where r is the compression ratio (given by the manufacturer as r = 8.3) and k is the specific heat ratio, typically k = 1.4 when modeling air as an ideal gas.
 
 Thus we find that = 1-(1(8.3))(1.4)-1=0.5711 = 57.11%. This is typical for an ideal air standard Otto Cycle.
 

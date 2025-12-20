@@ -218,6 +218,3 @@ $$
 
 We find that, as would be expected, the actual efficiency is much lower than the ideal-air standard efficiency. This being said, it is more than obvious that this is not only the product of the real cycle not being ideal air (i.e., not an ideal gas but rather a fuel-air mixture, not isentropic, expansion as a result of combustion rather than heat transfer, etc.) but also due to other broader simplifying assumptions such as assuming only forward motion, assuming constant torque as average torque (when in reality the front and rear wheels produce different amounts of torque at all times and the torque varies between the transmission’s low and high-end ratios), and assuming perfect torque transmission between the wheels and ground (ignoring wheel slip and losses of energy to friction, air resistance, etc.).
 
-<div style="text-align: center;">
-  <img src="{{ '/assets/images/tg21.jpg' | relative_url }}" alt="Centered Image" style="max-width:100%; height:auto;">
-</div>

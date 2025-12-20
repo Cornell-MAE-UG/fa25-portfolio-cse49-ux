@@ -47,8 +47,8 @@ Thermal efficiency of a power cycle in general is expressed as  = WcycQin, that 
 To calculate the amount of heat inputted, we analyze the fuel used for the engine and its lower heating value (LHV). For unleaded gasoline, the typical LHV is 12.2 kWh/kg or 43.92 MJ/kg. Baja SAE rules state all competition vehicles must use Pyrotect Part Number SFC100 as a fuel tank. The dimensions of the fuel tank are shown in the drawing (8.00in ⌀ x 7.94in). When full, the volume of fuel inside the tank is given by V=hr2=(7.94)(4)2=399.1in3=0.00654m3.
 
 <p>
-  <img src="{{ 'assets/images/baja-fuel-tank.jpeg' | relative_url }}" alt="Baja fuel tank" style="width:48%;display:inline-block;margin-right:2%" />
-  <img src="{{ 'assets/images/baja-fuel-tank-drawing.jpeg' | relative_url }}" alt="Baja fuel tank drawing" style="width:48%;display:inline-block" />
+  <img src="{{ 'assets/images/baja-fuel-tank.png' | relative_url }}" alt="Baja fuel tank" style="width:48%;display:inline-block;margin-right:2%" />
+  <img src="{{ 'assets/images/baja-fuel-tank-drawing.jpg' | relative_url }}" alt="Baja fuel tank drawing" style="width:48%;display:inline-block" />
 </p>
 
 The typical density for unleaded gasoline is about 0.71 to 0.77 g/mL or 710 to 770kg/m^3. To be conservative in our calculation of efficiency, we choose the highest density (i.e., a less efficient engine will need more gas to produce the same amount of work).  Thus we find that the mass of gas when the gas tank is full is m=V=(770)(.00654)=5.0358kg.

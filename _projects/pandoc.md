@@ -10,7 +10,7 @@ single letter‑sized page.
 -->
 ---
 fontsize: 11pt
-geometry: margin=1in
+geometry: margin= 1in
 papersize: letter
 pagestyle: empty
 header-includes:
@@ -20,40 +20,24 @@ header-includes:
 **Proposed Solutions for Managing Spotted Lanternflies in Vineyards**
 
 **Team:** Lanternfly Bye-Bye
+
 **Client(s):** Cornell CALS Extension / E\&J Gallo Winery / National Grape  
 
-## Problem statement 
-Since 2014, spotted lanternflies (SLF) have permeated the northeast, feeding on produce such as grapes and infecting over 70 plant species, threatening agriculture and biodiversity. The economic impacts of this invasive species have been estimated at $324 million annually.
-## Impact
-In 2025, the National Association of American Wineries valued New York’s wine industry at $16.81 billion. This high-value industry depends on a narrow 2-3 month harvest window, but the presence of spotted lanternflies can result in yield loss and reduced quality, costing the vineyards millions of dollars. 
-## Proposed direction(s)
-Our team has ideas for two products to either manage the lanternfly population or deter them from vineyards. However, each approach has its own potential and risks, so we would appreciate any feedback on the viability of our ideas. 
-### Concept A: Poisonous Tree of Heaven
-**What it is:** Our first idea focuses on managing the population of spotted lanternflies using a decoy tree of heaven. Our team would design a small container and fill it with a mix of tree of heaven sap and a toxin.  
+   Since 2014, spotted lanternflies (SLF) have permeated the northeast, feeding on produce such as grapes and infecting over 70 plant species, threatening agriculture and biodiversity. The economic impacts of this invasive species have been estimated at $324 million annually. In 2025, the National Association of American Wineries valued New York’s wine industry at $16.81 billion. This high-value industry depends on a narrow 2-3 month harvest window, but the presence of spotted lanternflies can result in yield loss and reduced quality, costing the vineyards millions of dollars. Our team has ideas for two products to either manage the lanternfly population or deter them from vineyards. However, each approach has its own potential and risks, so we would appreciate any feedback on the viability of our ideas. 
 
-**How it would be used:** Attracted by the sap, the lanternflies will dig into the container and ingest the toxin. A brief search found that some have used milkweed to varying degrees of success. However, there is currently no research on its toxicity. Otherwise, the container can be equipped with a weight-activated nozzle that would douse the lanternflies in a toxic mix, similar to what many households currently use. 
-**Why it’s better than the status quo:** <2–3 bullets.>  
+### Concept A: Poisonous Tree of Heaven
+Our first idea focuses on managing the population of spotted lanternflies using a decoy tree of heaven. Our team would design a small container and fill it with a mix of tree of heaven sap and a toxin. Attracted by the sap, the lanternflies will dig into the container and ingest the toxin. A brief search found that some have used milkweed to varying degrees of success. However, there is currently no research on its toxicity. Otherwise, the container can be equipped with a weight-activated nozzle that would douse the lanternflies in a toxic mix, similar to what many households currently use. The benefits of this product are:
+
 - The decoys are easily scalable and stackable
 
 - When placed in vinyards, will attract the flies away from the harvesters
 
 - Is able to protect the harvesters from the bugs and work to reduce the fly population
 
-**End-of-semester proof-of-concept:** 
 By the end of the semester, our goal is to have a finalized trap and, ideally, have tested it in a real environment to see its effectiveness. 
+
 ### Concept B: Essential Oils
-**What it is:** Our second proposal attempts to prevent the spotted lanternflies from entering the vineyard by dettering them with essential oils.
-
-**How it would be used:** These flies are naturally deterred by essential oils such as lavender or eucalyptus. By creating individual diffusers to place around the vineyard, the flies will not enter, and the plants will remain unharmed. Ideally, this idea could be developed to include a way to harm the lanternflies as well as deter them in order to help control the population and further protect the vineyard.
-
-**Why it’s better than the status quo:** <2–3 bullets.>  
-- Non toxic to plants and other animals
-- Does not require much maintenence
-- Protects teh harvesters from the lanternflies
-
-**End-of-semester proof-of-concept:** 
-By the end of this semester, our team’s goal is to create and test a final prototype.
-
+Our second proposal attempts to prevent the spotted lanternflies from entering the vineyard by dettering them with essential oils. These flies are naturally deterred by essential oils such as lavender or eucalyptus. By creating individual diffusers to place around the vineyard, the flies will not enter, and the plants will remain unharmed. Ideally, this idea could be developed to include a way to harm the lanternflies as well as deter them in order to help control the population and further protect the vineyard. This product would be nontoxic to surrounding plants and other animals, and would not require much maintence while protecting harvesters from the lanternflies. By the end of the semester, our team's goal would also be to create and find a way to test a final prototype.
 
 ## Key risks / unknowns
 
@@ -67,7 +51,6 @@ By the end of this semester, our team’s goal is to create and test a final pro
 
 
 ## Questions for the client
-Focus on questions they can answer from lived experience.
 1. **Have you found anything that is effective at killing spotted lanternflies?**  
    *Decision affected: What measure to use to narrow down the population (toxins, phsyical means, etc)*
 2. **Are spotted lanternflies deterred by other factors such as locations of the vineyards or human presence?**  
@@ -77,8 +60,6 @@ Focus on questions they can answer from lived experience.
 
 
 \newpage
-
-# Optional page 2 — References and/or one figure
 
 ## References
 

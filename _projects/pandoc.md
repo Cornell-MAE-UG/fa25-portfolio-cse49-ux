@@ -1,7 +1,19 @@
 <!--
-Compile to PDF (example):
-  pandoc O3_ClientOutline_example_submission.md -o O3_ClientOutline.pdf
+Use `pandoc` to export this page as a PDF.  The second YAML block below
+contains the Pandoc options (font size, margins, etc.).  When you want to
+re‑generate the PDF, run a command such as:
+
+    pandoc _projects/pandoc.md -o _projects/pandoc.pdf
+
+You can also create a Makefile target or script if you prefer.
 -->
+
+---
+layout: project
+title: "Pandoc example"
+description: "Demonstration of converting a project page to PDF with Pandoc"
+# image: /assets/images/your-image.jpg   # optional
+---
 
 ---
 fontsize: 11pt

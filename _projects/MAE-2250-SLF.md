@@ -86,13 +86,12 @@ By the end of this semester, our team’s goal is to create and test a final pro
    *Decision affected: What component we add to reduce the population. For example, deciding between toxins or sprays and the concentration of them.* 
 2. Are spotted lanternflies deterred by other factors such as locations of the vineyards or human presence? 
    *Decision affected: What location or factors should we examine when deciding how to implement out product* 
-3. **<Are there any parts of our plans that raise conerns for you?>**  
+3. Are there any parts of our plans that raise conerns for you? 
    *Decision affected: Future Steps* 
 
 
 \newpage
 
-# Optional page 2 — References and/or one figure
 
 ## References
 

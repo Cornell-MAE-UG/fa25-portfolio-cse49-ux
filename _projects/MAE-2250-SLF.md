@@ -18,15 +18,6 @@ You can also create a Makefile target or script if you prefer.
 ## **Collaborators:** ##
 [Camille Eckert](mailto:cse49@cornell.edu), [Claire Kim](mailto:cwk66@cornell.edu), [Owen LaPierre](mailto:odl6@cornell.edu), [Ryan Cruz](mailto:rc939@cornell.edu), [Gabriel Hwang](mailto:glh85@cornell.edu) 
 
----
-fontsize: 11pt
-geometry: margin=1in
-papersize: letter
-pagestyle: empty
-header-includes:
-  - \pagenumbering{gobble}
----
-
 Proposed Solutions for Managing Spotted Lanternflies in Vineyards
 
 **Team:** Lanternfly Bye-Bye
@@ -89,8 +80,6 @@ By the end of this semester, our team’s goal is to create and test a final pro
 3. Are there any parts of our plans that raise conerns for you? 
    *Decision affected: Future Steps* 
 
-
-\newpage
 
 
 ## References

@@ -1,3 +1,10 @@
+---
+layout: project
+title: "MAE-2250: Spotted Lanternfly Device"
+description: "Project details for MAE 2250: Spotted Lanternfly Device"
+image: /assets/images/SLF.jpg
+---
+
 <!--
 Use `pandoc` to export this page as a PDF.  The second YAML block below
 contains the Pandoc options (font size, margins, etc.).  When you want to
@@ -7,13 +14,6 @@ re‑generate the PDF, run a command such as:
 
 You can also create a Makefile target or script if you prefer.
 -->
-
----
-layout: project
-title: "MAE-2250: Spotted Lanternfly Device"
-description: "Project details for MAE 2250: Spotted Lanternfly Device"
-image: /assets/images/SLF.jpg
----
 
 ## **Collaborators:** ##
 [Claire Kim](mailto:cwk66@cornell.edu), [Owen LaPierre](mailto:odl6@cornell.edu), [Ryan Cruz](mailto:rc939@cornell.edu), [Gabriel Hwang](mailto:glh85@cornell.edu) 

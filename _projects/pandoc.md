@@ -37,6 +37,8 @@ Our second proposal attempts to prevent the spotted lanternflies from entering t
 
 -  Plant-safe compounds. Both of our proposed solutions involve liquid compounds to deter and remove lanternflies. The compounds used in the final solution will need to be safe for the grapes and approved by the FDA.
 
+\newpage
+
 ## Questions for the client
 1. **Have you found anything that is effective at killing spotted lanternflies?**  
    *Decision affected: What measure to use to narrow down the population (toxins, phsyical means, etc)*

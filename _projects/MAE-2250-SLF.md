@@ -16,7 +16,7 @@ You can also create a Makefile target or script if you prefer.
 -->
 
 ## **Collaborators:** ##
-[Claire Kim](mailto:cwk66@cornell.edu), [Owen LaPierre](mailto:odl6@cornell.edu), [Ryan Cruz](mailto:rc939@cornell.edu), [Gabriel Hwang](mailto:glh85@cornell.edu) 
+[Camille Eckert](mailto:cse49@cornell.edu), [Claire Kim](mailto:cwk66@cornell.edu), [Owen LaPierre](mailto:odl6@cornell.edu), [Ryan Cruz](mailto:rc939@cornell.edu), [Gabriel Hwang](mailto:glh85@cornell.edu) 
 
 ---
 fontsize: 11pt

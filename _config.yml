@@ -13,7 +13,7 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Camille Eckert"
 description              : "Camille Eckert - Engineering Portfolio"
-baseurl                  : "/fa25-portfolio-cse49-ux" # Set this to your repo name 
+baseurl                  : "" # Set this to your repo name; empty for local testing
 
 # Theme and Style
 theme: jekyll-theme-minimal

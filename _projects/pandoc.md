@@ -14,7 +14,7 @@ header-includes:
 
 # Your Project Title
 
-**Team:** _Your Team Name_
+**Team:** Lanternfly Bye Bye
 **Client(s):** Cornell CALS Extension / E\&J Gallo Winery / National Grape  
 
 ## Problem statement (most important)

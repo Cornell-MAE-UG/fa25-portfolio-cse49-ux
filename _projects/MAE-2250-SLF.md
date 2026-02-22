@@ -2,11 +2,11 @@
 layout: project
 title: "MAE-2250: Spotted Lanternfly Device"
 description: "Project details for MAE 2250: Spotted Lanternfly Device"
-image: /assets/images/placeholder.jpg
+image: /assets/images/SLF.jpg
 ---
 
 ## **Collaborators:** ##
-[Claire Kim](mailto:cwk66@cornell.edu), [Owen LaPierre](mailto:odl6@cornell.edu), [Ryan Cruz](mailto:rc939@cornell.edu),[Gabriel Hwang](mailto:glh85@cornell.edu) 
+[Claire Kim](mailto:cwk66@cornell.edu), [Owen LaPierre](mailto:odl6@cornell.edu), [Ryan Cruz](mailto:rc939@cornell.edu), [Gabriel Hwang](mailto:glh85@cornell.edu) 
 
 
 <!--

@@ -3,18 +3,11 @@ Use `pandoc` to export this page as a PDF.  The second YAML block below
 contains the Pandoc options (font size, margins, etc.).  When you want to
 re‑generate the PDF, run a command such as:
 
-    pandoc _projects/MAE-2250-SLF.md -o _projects/pandoc.pdf
+    pandoc _projects/pandoc.md -o _projects/pandoc2.pdf
 
-You can also create a Makefile target or script if you prefer.
+Smaller font and narrower margins will attempt to force everything onto a
+single letter‑sized page.
 -->
-
----
-layout: project
-title: "Pandoc example"
-description: "Demonstration of converting a project page to PDF with Pandoc"
-# image: /assets/images/your-image.jpg   # optional
----
-
 ---
 fontsize: 11pt
 geometry: margin=1in
@@ -45,9 +38,11 @@ Our team has ideas for two products to either manage the lanternfly population o
 **How it would be used:** Attracted by the sap, the lanternflies will dig into the container and ingest the toxin. A brief search found that some have used milkweed to varying degrees of success. However, there is currently no research on its toxicity. Otherwise, the container can be equipped with a weight-activated nozzle that would douse the lanternflies in a toxic mix, similar to what many households currently use. 
 
 **Why it’s better than the status quo:** <2–3 bullets.>  
-- The decoys are easily scalable and stackable
-- When placed in vinyards, will attract the flies away from the harvesters
-- Is able to protect the harvesters from the bugs and work to reduce the fly population
+- <Risk 3>The decoys are easily scalable and stackable
+
+- <Risk 3> When placed in vinyards, will attract the flies away from the harvesters
+
+- <Risk 3>Is able to protect the harvesters from the bugs and work to reduce the fly population
 
 **End-of-semester proof-of-concept:** <what you can realistically build/test in MAE 2250.> 
 By the end of the semester, our goal is to have a finalized trap and, ideally, have tested it in a real environment to see its effectiveness. 
@@ -58,9 +53,11 @@ By the end of the semester, our goal is to have a finalized trap and, ideally, h
 **How it would be used:** These flies are naturally deterred by essential oils such as lavender or eucalyptus. By creating individual diffusers to place around the vineyard, the flies will not enter, and the plants will remain unharmed. Ideally, this idea could be developed to include a way to harm the lanternflies as well as deter them in order to help control the population and further protect the vineyard.
 
 **Why it’s better than the status quo:** <2–3 bullets.>  
-- Non toxic to plants and other animals
-- Does not require much maintenence
-- Protects teh harvesters from the lanternflies
+- <Risk 3> Non toxic to plants and other animals
+
+- <Risk 3>Does not require much maintenence
+
+- <Risk 3> Protects teh harvesters from the lanternflies
 
 **End-of-semester proof-of-concept:** <what you can realistically build/test in MAE 2250.> 
 By the end of this semester, our team’s goal is to create and test a final prototype.
@@ -101,6 +98,3 @@ Focus on questions they can answer from lived experience.
 - “Spotted Lanternfly in Perspective (U.S. National Park Service).” n.d. Www.nps.gov. https://www.nps.gov/articles/000/slf-in-perpective.htm.
 
 
-## Figure
-
-<!-- ![<One-line caption. No full sentences.>](figures/<your_figure_filename>.png) -->

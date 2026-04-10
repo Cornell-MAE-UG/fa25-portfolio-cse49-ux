@@ -1,0 +1,192 @@
+---
+layout: project
+title: ODP5 - Functional Prototype
+description: Class Assignment
+image: ~PUT YOUR IMAGE HERE~
+---
+## Design Documentation
+<table>
+    <tr>
+        <th>Description</th>
+        <th>Specs</th>
+        <th>McMaster Code</th>
+        <th>Fabrication Details</th>
+    </tr>
+    <tr>
+        <td>Casing Body</td>
+        <td>7in diam x 8in H</td>
+        <td>N/A</td>
+        <td>3D printed in RPL with PLA</td>
+    </tr>
+    <tr>
+        <td>Casing Lid</td>
+        <td>7in diam x 7in H</td>
+        <td>N/A</td>
+        <td>3D printed in RPL with PLA</td>
+    </tr>
+    <tr>
+        <td>Motion Sensors</td>
+        <td>4x:2-6m sensing distance, 110° field of
+            view, 1.25x1in </td>
+        <td>8194N13</td>
+        <td>Assembled with breadboard
+            and coded</td>
+    </tr>
+    <tr>
+        <td>Aerosol Sprayer</td>
+        <td>2.5x7.25in, 8fl
+capacity</td>
+        <td>7773T4</td>
+        <td>N/A</td>
+    </tr>
+    <tr>
+        <td>Arduino Starter Kid</td>
+        <td>16MHz processing
+speed, ARM Cortex
+A-9 CPU</td>
+        <td>Amazon</td>
+        <td>Assembled and coded</td>
+    </tr>
+    <tr>
+        <td>Nozzle Straws</td>
+        <td>19.7in length</td>
+        <td>Amazon</td>
+        <td>N/A</td>
+    </tr>
+    <tr>
+        <td>Spray Bottle Straw
+Attachment</td>
+        <td>0.1in diam, 1.5in
+length</td>
+        <td>N/A</td>
+        <td>3D printed in RPL with PLA</td>
+    </tr>
+</table>
+<br>
+
+
+##  Prototype Illustration:
+
+
+INSERT IMAGES HERE
+
+
+## Prototype Assembly
+1. Gently press the motion sensors into the holes in the lid. Thread the wiring through the
+lid, ensuring connection is maintained between the sensors and the arduino.
+2. Attach the bottle/nozzle connector to the spray bottle and the rest of the electronics in the
+center area of the base. Make sure that the arduino can rest on and activate the spray
+bottle.
+3. Fill the outer area of the base with Tree of Heaven Sap or your preferred Spotted
+Lanternfly Attractor.
+4. Thread the nozzles into the connector and through the outer holes of your choice.
+5. Twist the lid onto the base and hang where desired.
+
+
+## Design Tests
+<table>
+    <tr>
+        <th>Component</th>
+        <th>Test</th>
+        <th>Description</th>
+        <th>Result</th>
+        <th>Conclusion</th>
+    </tr>
+    <tr>
+        <td>Motion sensors</td>
+        <td>Quality Control</td>
+        <td>Test if motion sensors can light an LED when motion input is given with at least a 75% success rate. Ensuring none arrived damaged. Tested by coding a simple function.</td>
+        <td>Success. Given input of ~6” distance, LED turned on 100% of the time for all four sensors.</td>
+        <td>Sensors are functional and fit for use cases. No need to purchase others.</td>
+    </tr>
+    <tr>
+        <td>Arduino/motor/
+        sensors/code</td>
+        <td>Servo actuation</td>
+        <td>Test if the IR sensor works, and if so, can we trigger a servo when motion is detected with at least a 75% success rate.</td>
+        <td>Semi-Success. After some testing, we determined that the individual IR modules work as intended. We also managed to trigger a servo with it and had about a 50% success rate due to errors within the code, but we are confident that this percentage can improve.</td>
+        <td>It is possible to scale up and code all four sensors to actuate the arduino. However, some planning will be needed to successfully wire the four modules and servo.</td>
+    </tr>
+    <tr>
+        <td>Spray system</td>
+        <td>Nozzles/
+        Tube</td>
+        <td>Does our purchased spray system work? Do we believe it can be functionally attached to at least four tubes and pressurized push the liquid 5 in through the tubes? Tested by filling the spray bottle with water and attaching different tubes to identify how it works and the area it covers.</td>
+        <td>While the spray can is functional, the way that it creates a pressured area to spray would not work with a 3D printed connector, and thus could not reach our desired distance with 4 nozzles at once.</td>
+        <td>As we expected at the end of last week, we need to research and develop a new way of delivering the liquid through the tubes. We plan to design a different system using pressurized CO2.</td>
+    </tr>
+    <tr>
+        <td>3D printed bodies</td>
+        <td>Dimensions, 3D printing simplicity</td>
+        <td>In order to conserve cost in the initial stages, we used cheaper filament and a smaller printer. This meant that we had to print in multiple parts and remove the threads. We will use the initial prototype to give us an idea of the necessary dimensions, structural integrity, and printability of the housing.</td>
+        <td>To be determined. RPL had major delays in production, so we only have the two body sections. However, our part was printed accurately and had no issues with the precise holes needed.</td>
+        <td>Once we can assemble the entire casing, we can assemble our entire prototype and use that to inform our next 3D print.</td>
+    </tr>
+</table>
+<br>
+
+
+## Success Criteria
+The goal of our project is to effectively deter and eliminate 75% of Spotted Lanternflies within a
+vineyard before they reach the harvesters. Our product is a Tree of Heaven trick that attracts the
+flies with Tree of Heaven sap and through motion sensors sprays them with a damaging mixture.
+With our first functional prototype, we aimed to validate the core systems: motion detection,
+actuation, fluid delivery, and structural design, against measurable success criteria that directly
+support this goal.
+
+
+<ul>
+    <li> Motion Sensor Reliability
+        <ul>
+            <li> Assessed: The ability of the system to consistently detect Spotted Lanternflies as they land.</li>
+            <li>Measurement: Percentage of successful sensor detections that trigger an LED light at a fixed distance (~6 inches).</li>
+            <li>Target: ≥75% detection success rate.</li>
+            <li>Result from testing: Achieved ~100% success rate across four sensors.</li>
+            <li>Relevance to goal: Reliable detection is critical to ensuring flies are targeted before reaching crops.</li>
+        </ul>
+    </li>
+    <li> Servo Activation
+        <ul>
+            <li> Assessed: If detected motion can successfully trigger the servo motor and spray mechanism.</li>
+            <li>Measurement: Percentage of motion detections that result in correct servo actuation.</li>
+            <li>Target: ≥75% successful actuation.</li>
+            <li>Result from testing: ~50% success rate (limited by coding errors).</li>
+            <li>Relevance to goal: This directly determines whether detected flies can actually be sprayed and eliminated.</li>
+        </ul>
+    </li>
+    <li> Spray System Effectiveness
+        <ul>
+            <li> Assessed: Ability of the system to deliver pressurized liquid through multiple nozzles simultaneously.</li>
+            <li>Measurement: Number of nozzles (target = 4) that can be supplied with sufficient pressure and coverage distance (~5 inches).</li>
+            <li>Target: Functional delivery to all 4 nozzles at usable pressure.</li>
+            <li>Result from testing: System functional, but insufficient pressure and setup for 4 nozzles simultaneously.</li>
+            <li>Relevance to goal: Effective spray coverage is necessary to ensure flies are hit and eliminated.</li>
+        </ul>
+    </li>
+    <li> Structural Integrity and Manufacturability
+        <ul>
+            <li>Assessed: Whether the housing can be accurately printed, assembled, and support system components.</li>
+            <li>Measurement: Dimensional accuracy (fit of parts), successful assembly, and absence of structural defects.</li>
+            <li>Target: Fully assembled prototype with precise component fit.</li>
+            <li>Result from testing: Individual parts printed accurately with full assembly in the future.</li>
+            <li>Relevance to goal: A durable and scalable housing is necessary for real vineyard usage.</li>
+        </ul>
+    </li>
+</ul>
+<br>
+For our live demonstration, we identified the detection-to-spray response as the most critical to
+show, as it validates our full system performance. By simulating Spotted Lanternflies, we hope to
+show a ≥75% success rate of identifying and accurately dousing any motion during the live
+demonstration.
+
+
+**Addition: Missing Teammate on 3/25**
+
+
+Unfortunately, our teammate Claire Kim was not feeling well and needed to miss our lab on
+3/25. In order to make up for this missing person and still finalize our deliverables in time, we
+spent the lab period allocating tasks to be as efficient as possible. Gabriel tested the electronic
+components, Ryan and Owen tested and discussed the results of the spray nozzle, and Camille
+worked on the write up and future steps. With our completed work, we feel confident that we
+will be able to reach our internal deadline of creating another prototype within the next two
+weeks and achieving the final product by the week of April 20th.

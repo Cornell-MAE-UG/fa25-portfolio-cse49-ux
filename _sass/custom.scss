@@ -203,4 +203,20 @@ footer {
   transform: translateX(-4px);
 }
 
+table, th, td {
+  border: 1px solid black; /* Sets the border style, width, and color */
+}
+
+
+table {
+  border-collapse: collapse; /* Collapses borders into a single line */
+  width: 100%; /* Optional: makes the table span the full width */
+}
+
+
+th, td {
+  padding: 8px; /* Optional: adds space between content and border */
+  text-align: left; /* Optional: aligns text to the left */
+}
+
 

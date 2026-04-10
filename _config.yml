@@ -13,10 +13,11 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Camille Eckert"
 description              : "Camille Eckert - Engineering Portfolio"
-baseurl                  : "/fa25-portfolio-cse49-ux" # your repo name. GitHub Pages uses this to prefix asset URLs
+baseurl                  : "/portfolio-fa25-fa25-portfolio-portolios" # your repo name. GitHub Pages uses this to prefix asset URLs
 host                     : "0.0.0.0"
 port                     : 4000
-# (locally you can serve with --baseurl "" if you don’t want the prefix)
+# Keep this set to your repo path for GitHub Pages. For a local root preview,
+# run: bundle exec jekyll serve --host 0.0.0.0 --port 4000 --baseurl ""
 
 # Theme and Style
 theme: jekyll-theme-minimal

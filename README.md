@@ -139,15 +139,25 @@ bundle install
 ### Running the Local Portfolio Server
 Then, to run the server you run the `jekyll serve` command:
 ```bash
-bundle exec jekyll serve
+bundle exec jekyll serve --host 0.0.0.0 --port 4000
 ```
 
 Note that many updates to your code are automatically reloaded into the web server. However, some changes, notably to `_config.yml` require a restart of the jekyll server.
 
-You can access the site at the URL shown by the `serve` command. It looks something like this:
-```python
-    Server address: http://127.0.0.1:4000/
+You can access the site at the URL shown by the `serve` command. Because this site is configured with a `baseurl`, the shown address usually includes the repository name, for example:
+```text
+    Server address: http://0.0.0.0:4000/portfolio-fa25-fa25-portfolio-portolios/
   Server running... press ctrl-c to stop.
+```
+
+That means the correct local preview URL is:
+```text
+http://127.0.0.1:4000/portfolio-fa25-fa25-portfolio-portolios/
+```
+
+If you want to preview the site at the root path instead, use:
+```bash
+bundle exec jekyll serve --host 0.0.0.0 --port 4000 --baseurl ""
 ```
 
 ---

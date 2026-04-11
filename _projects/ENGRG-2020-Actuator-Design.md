@@ -2,7 +2,6 @@
 layout: project
 title: ENGRD-2020-Actuator Design
 description: Actuator Mechanism
-technologies: []
 image: /assets/images/linear-actuator-system.png
 ---
 

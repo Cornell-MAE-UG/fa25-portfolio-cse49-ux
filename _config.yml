@@ -13,7 +13,7 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Camille Eckert"
 description              : "Camille Eckert - Engineering Portfolio"
-baseurl                  : "/https://cornell-mae-ug.github.io/fa25-portfolio-cse49-ux/" # your repo name. GitHub Pages uses this to prefix asset URLs
+baseurl                  : "/cornell-mae-ug.github.io/fa25-portfolio-cse49-ux/" # your repo name. GitHub Pages uses this to prefix asset URLs
 host                     : "0.0.0.0"
 port                     : 4000
 # Keep this set to your repo path for GitHub Pages. For a local root preview,

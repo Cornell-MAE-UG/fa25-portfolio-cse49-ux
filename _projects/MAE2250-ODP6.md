@@ -9,7 +9,7 @@ papersize: letter
 pagestyle: empty
 group: group1
 ---
-**Team:** _Sinicus_
+**Team:** _Lanternfly Bye Bye_
 <br>
 Camille Eckert, Claire Kim, Ryan Cruz, Owen Lapierre, Gabriel Hwang
 
@@ -84,7 +84,6 @@ Our initial full-scale functional prototype was designed as a branch-mounted, mo
 <center>Fig 4. Initial Prototype </center>
 <br>
 
-### _Rake test_
 <p>A central feature of this design was a custom four-way nozzle intended to distribute spray evenly in all directions. This configuration was selected to improve the likelihood of SLF contact regardless of approach angle. However, during implementation, compatibility issues were identified between the custom nozzle design and the commercially available spray canisters, specifically related to pressure delivery and nozzle interface geometry. These constraints prevented the successful integration of the multi-directional spray system in the current iteration.</p>
 <p>Despite these challenges, further investigation into alternative nozzle geometries, pressurized delivery systems, and adapter mechanisms suggests that a fully functional 360-degree spray configuration remains technically feasible. With appropriate redesign of the pressure regulation and nozzle coupling system, the original concept could be realized in a future iteration of the prototype, potentially improving overall capture efficiency and reducing reliance on auxiliary trapping components.</p>
 
@@ -101,7 +100,7 @@ Our initial full-scale functional prototype was designed as a branch-mounted, mo
     <tr>
         <td>Prototype Casing</td>
         <td>Rapid Prototyping Lab PLA</td>
-        <td>1/td>
+        <td>1</td>
         <td>$43.98</td>
     </tr>
     <tr>
